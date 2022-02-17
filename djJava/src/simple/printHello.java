@@ -1,7 +1,7 @@
 /**
  * 
  */
-package djJava;
+package simple;
 
 /**
  * @author dj153
