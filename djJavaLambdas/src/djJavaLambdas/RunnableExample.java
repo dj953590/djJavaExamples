@@ -5,7 +5,7 @@ package djJavaLambdas;
 
 /**
  * @author dj153
- *
+ * Simple Lambda implementation
  */
 public class RunnableExample {
 
