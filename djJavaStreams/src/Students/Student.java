@@ -15,9 +15,20 @@ public class Student {
     private int gradeLevel;
     private double gpa;
     private String gender;
+    private int notebooks;
     List<String> activities = new ArrayList<>();
 
-    public Student(String name, int gradeLevel, double gpa, String gender, List<String> activities) {
+    public Student(String name, int gradeLevel, double gpa, String gender, int notebooks, List<String> activities) {
+		super();
+		this.name = name;
+		this.gradeLevel = gradeLevel;
+		this.gpa = gpa;
+		this.gender = gender;
+		this.notebooks = notebooks;
+		this.activities = activities;
+	}
+
+	public Student(String name, int gradeLevel, double gpa, String gender, List<String> activities) {
         this.name = name;
         this.gradeLevel = gradeLevel;
         this.gpa = gpa;
@@ -59,7 +70,15 @@ public class Student {
 
 
 
-    public List<String> getActivities() {
+    public int getNotebooks() {
+		return notebooks;
+	}
+
+	public void setNotebooks(int notebooks) {
+		this.notebooks = notebooks;
+	}
+
+	public List<String> getActivities() {
         return activities;
     }
 
