@@ -7,8 +7,12 @@ import java.util.function.Function;
 
 /**
  * @author djadhav
- * Function interface takes one object parameter and return other other 
- */
+ * Function interface takes two object parameter 
+ * first object is the input parameter
+ * Second is the output parameter 
+ * Here we have shown for String but it can be any objects
+ *  
+ *  */
 public class FunctionExample {
 
 	/**
