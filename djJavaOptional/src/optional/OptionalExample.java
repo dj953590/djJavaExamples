@@ -51,6 +51,7 @@ public class OptionalExample {
 
     	/** this is how you do in the old times */
         String name = getStudentName();
+        
         if(name!=null)
             System.out.println("Length of the student Name : " + name.length());
         else
