@@ -15,7 +15,7 @@ import Students.StudentDatabase;
  */
 public class FunctionStudentExample {
 	
-	static Function<List<Student>, Map<String, Double>> studentfunction = (students -> {
+	static Function<List<Student>, Map<String, Double>> studentfunction = (students) -> {
 		Map<String, Double> StudentGrade = new HashMap();
 		
 		students.forEach((student -> {
@@ -24,7 +24,7 @@ public class FunctionStudentExample {
 			}
 		}));
 	return StudentGrade;
-	});
+	};
 
 	public static void main(String[] args) {
 		
