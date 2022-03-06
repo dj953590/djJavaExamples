@@ -29,6 +29,7 @@ public class DefaultMethodExample {
 		List<Student> studentList = StudentDatabase.getAllStudents();
 		System.out.println("Before Sort");
 		studentList.forEach(c);
+		
 		System.out.println("After Sort");
 		Comparator<Student> basedOnName = Comparator.comparing(f);
 		studentList.sort(basedOnName);
