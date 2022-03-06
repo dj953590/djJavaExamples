@@ -36,8 +36,9 @@ import Students.StudentDatabase;
  *         
  *         sorted: The sorted method is used to sort the stream. List names =
  *         Arrays.asList("Reflection","Collection","Stream"); List result =
- *         names.stream().sorted().collect(Collectors.toList()); Terminal
- *         Operations:
+ *         names.stream().sorted().collect(Collectors.toList());
+ *          
+ *         Terminal Operations:
  * 
  *         collect: The collect method is used to return the result of the
  *         intermediate operations performed on the stream. List number =
